@@ -1,0 +1,17 @@
+pkgbase = dart-trunk
+	pkgdesc = Bleeding Edge (Trunk Build) of the Dart SDK
+	pkgver = 41921
+	pkgrel = 1
+	url = http://www.dartlang.org/
+	arch = x86_64
+	arch = i686
+	license = BSD
+	makedepends = setconf
+	provides = dart
+	conflicts = dart
+	options = !strip
+	source = dart-trunk-x32.zip::http://storage.googleapis.com/dart-archive/channels/be/raw/latest/sdk/dartsdk-linux-ia32-release.zip
+	sha256sums = SKIP
+
+pkgname = dart-trunk
+
